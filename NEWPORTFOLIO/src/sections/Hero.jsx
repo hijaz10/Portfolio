@@ -24,17 +24,18 @@ function Hero() {
   return (
     <div
       style={{ height: "calc(100vh - 64px)", marginTop: "64px" }}
-      className="flex max-[900px]:flex-col overflow-hidden justify-between h-screen gap-8 mt-16 mx-12 animate-fade-in animation-delay-100"
+      className="flex max-[930px]:flex-col overflow-hidden justify-between h-screen gap-8 mt-16 mx-12 animate-fade-in animation-delay-100"
     >
       {/*LEFT SECTION*/}
-      <div className="flex flex-col flex-1 mt-8 justify-center">
-        <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold ">
+      <div className="flex flex-col flex-1 my-16 justify-center">
+        <h1 className="text-4xl xl:text-6xl font-bold ">
           Your idea deserves more than a developer. <br /> It deserves an
           engineer who thinks like a founder.
         </h1>
-        <p className="text-muted-foreground text-2xl my-6">
-          React, Node.js, TypeScript. Full stack, end to end. I build production
-          systems that perform under pressure and scale without breaking.
+        <p className="text-muted-foreground text-[18px] my-6">
+          Hi. I'm Muhammad Yakubu, a software engineer specializing in React,
+          Node.js, TypeScript. End to end. I build production systems that
+          perform under pressure and scale without breaking.
         </p>
 
         <div className=" flex gap-4 max-[600px]:flex-col">
@@ -69,14 +70,14 @@ function Hero() {
       {/* RIGHT - image */}
 
       <div className="flex items-center justify-center w-full lg:w-110">
-        <div className="relative">
+        <div className="relative glow-border">
           <img
             src="/public/my-img.png"
             alt="My photo"
-            className="w-60 h-80 lg:w-80 lg:h-125 object-cover object-top"
+            className="w-80 lg:h-125 h-110 object-cover object-top"
           />
           {/* border */}
-          <div className="absolute -bottom-3 -right-3 w-60 h-80 lg:w-80 lg:h-125 border-2 border-black -z-10"></div>
+          <div className="absolute -bottom-3 -right-3 w-80 lg:h-125 h-110 border-2 border-black -z-10"></div>
         </div>
       </div>
     </div>

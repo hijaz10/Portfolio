@@ -7,7 +7,7 @@ const navLinks = [
 
 function NavBar() {
   return (
-    <nav className="flex items-center gap-6 px-6 h-16 fixed top-0 left-0 w-full bg-background border-b border-muted-foreground z-50">
+    <nav className="flex  items-center gap-6 px-6 h-16 fixed top-0 left-0 w-full bg-background border-b border-muted-foreground z-50">
       <a
         className="font-syne font-extrabold tracking-tight mx-10 text-2xl"
         href="/"

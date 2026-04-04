@@ -1,25 +1,3 @@
-const skills = [
-  "Html",
-  "Css",
-  "JavaScript",
-  "React",
-  "Tailwind CSS",
-  "Next.js",
-  "TypeScript",
-  "Node.js",
-  "NestJs",
-  "Prisma",
-  "PostgreSQL",
-  "MongoDB",
-  "Redis",
-  "Docker",
-  "AWS",
-  "Prisma",
-  "Jest",
-  "Git",
-  "Linux",
-];
-
 function Hero() {
   return (
     <div
@@ -33,14 +11,14 @@ function Hero() {
           engineer who thinks like a founder.
         </h1>
         <p className="text-muted-foreground text-[18px] my-6">
-          Hi. I'm Muhammad Yakubu, a software engineer specializing in React,
-          Node.js, TypeScript. End to end. I build production systems that
-          perform under pressure and scale without breaking.
+          Software engineer with deep expertise in React, Node.js, and
+          TypeScript. End to end. I build production systems that perform under
+          pressure and scale without breaking.
         </p>
 
         <div className=" flex gap-4 max-[600px]:flex-col">
           <a
-            href="#contact"
+            href="#Contact"
             className="text-center px-8 py-2 font-bold text-2xl whitespace-nowrap focus:outline-none focus-visible:ring-2 focus-visible:ring-primary bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/25"
           >
             Contact Me

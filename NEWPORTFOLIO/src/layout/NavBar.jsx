@@ -2,7 +2,7 @@ const navLinks = [
   { href: "#About", label: "About" },
   { href: "#Project", label: "Project" },
   { href: "#Experience", label: "Experience" },
-  { href: "#Testmonials", label: "Testmonials" },
+  { href: "#Testimonials", label: "Testimonials" },
 ];
 
 function NavBar() {
@@ -29,7 +29,7 @@ function NavBar() {
         </ul>
 
         <a
-          href="#contact"
+          href="#Contact"
           className=" px-4 font-bold py-2 mx-6 whitespace-nowrap focus:outline-none focus-visible:ring-2 focus-visible:ring-primary bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/25"
         >
           Contact Me

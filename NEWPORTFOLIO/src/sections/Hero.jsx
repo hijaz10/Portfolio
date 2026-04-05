@@ -19,11 +19,11 @@ function Hero() {
         <div className=" flex gap-4 max-[600px]:flex-col">
           <a
             href="#Contact"
-            className="text-center px-8 py-2 font-bold text-2xl whitespace-nowrap focus:outline-none focus-visible:ring-2 focus-visible:ring-primary bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/25"
+            className="text-center transition-transform duration-400 hover:scale-110 px-8 py-2 font-bold text-2xl whitespace-nowrap focus:outline-none focus-visible:ring-2 focus-visible:ring-primary bg-primary text-primary-foreground shadow-lg shadow-primary/25"
           >
             Contact Me
           </a>
-          <button className="relative px-8 py-2 text-2xl font-bold whitespace-nowrap focus:outline-none focus-visible:ring-2 focus-visible:ring-primary text-primary border-2 border-primary shadow-lg shadow-primary/25 group overflow-visible">
+          <button className="relative px-8 py-2 text-2xl font-bold whitespace-nowrap focus:outline-none focus-visible:ring-2 focus-visible:ring-primary text-primary border-2 border-primary shadow-lg shadow-primary/70 group overflow-visible">
             <svg
               className="absolute left-0 top-0 w-full h-full pointer-events-none"
               viewBox="0 0 200 60"

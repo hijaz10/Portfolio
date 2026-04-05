@@ -13,11 +13,9 @@ function Contact() {
           <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">
             GET IN TOUCH
           </span>
-          <h1 className="text-2xl font-display">
+          <h1 className="text-4xl font-extrabold font-display">
             Have a project in mind?{" "}
-            <span className="font-display font-extrabold">
-              Lets build something great.
-            </span>
+            <span className="">Lets build something great.</span>
           </h1>
         </div>
         {/* Bottom Section */}
@@ -63,7 +61,7 @@ function Contact() {
           </div>
           {/* Bottom Right Section */}
           <div className="w-full h-full sm:flex-1 flex items-center justify-center ">
-            <div className="h-full w-[60%] min-w-70 bg-[#0F4C75] overflow-hidden glow-border shadow-lg shadow-[#0F4C75]/25 text-white">
+            <div className="h-full w-[60%] min-w-70 bg-[#0F4C75] overflow-hidden glow-border shadow-xl shadow-[#0F4C75] text-white">
               <div className="flex justify-center flex-col p-6 gap-6 h-full w-full">
                 <h1 className="font-bold sm:text-2xl">Send Message</h1>
                 <input
@@ -83,7 +81,7 @@ function Contact() {
                 />
                 <button
                   href="#Contact"
-                  className=" px-4 font-bold py-2 whitespace-nowrap focus:outline-none focus-visible:ring-2 focus-visible:ring-primary bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/25"
+                  className="transition-transform duration-400 hover:scale-102 px-4 font-bold py-2 whitespace-nowrap focus:outline-none focus-visible:ring-2 focus-visible:ring-primary bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/25"
                 >
                   Send
                 </button>

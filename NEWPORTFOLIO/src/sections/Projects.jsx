@@ -1,11 +1,12 @@
-import { ArrowUpRight, Github } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
+import { TbBrandGithub } from "react-icons/tb";
 
 const projects = [
   {
     title: "Fintech Dashboard",
     description:
       "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
+    image: "/projects/project2.png",
     tags: ["React", "Typescript", "NodeJS"],
     link: "#",
     github: "#",
@@ -14,7 +15,7 @@ const projects = [
     title: "E-Commerce Platform",
     description:
       "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
+    image: "/projects/project1.png",
     tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
     link: "#",
     github: "#",
@@ -23,7 +24,7 @@ const projects = [
     title: "AI Writing Assistant",
     description:
       "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
+    image: "/projects/project2.png",
     tags: ["React", "OpenAI", "Python", "FastAPI"],
     link: "#",
     github: "#",
@@ -32,7 +33,7 @@ const projects = [
     title: "Project Management Tool",
     description:
       "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
+    image: "/projects/project2.png",
     tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
     link: "#",
     github: "#",
@@ -41,34 +42,34 @@ const projects = [
 
 function Projects() {
   return (
-    <section id="Project" className="h-screen scroll-mt-16 flex flex-col mx-12">
+    <section id="Project" className="scroll-mt-16 flex flex-col mx-12">
       {/* Top Section */}
-      <div className="flex flex-col items-center justify-center w-full h-[20%]">
-        <h1 className="text-2xl font-bold my-2">
+      <div className="flex flex-col items-center justify-center w-full">
+        <h1 className="text-2xl font-bold">
           Featured Work<span className="text-3xl text-muted-foreground">.</span>
         </h1>
-        <p className="italic font-display text-2xl text-muted-foreground">
+        <p className="italic font-display text-2xl text-muted-foreground mb-2">
           A selection of my recent work.
         </p>
       </div>
 
       {/* Bottom Section */}
-      <div className="flex-1 my-4">
-        <div className="grid md:grid-cols-2 gap-8 h-full">
+      <div className="flex-1 my-2">
+        <div className="grid md:grid-cols-2 gap-12">
           {projects.map((project, idx) => (
             <div
               key={idx}
-              className="group glass rounded-2xl overflow-hidden"
+              className="group glass overflow-hidden shadow-2xl border border-gray-400"
               style={{ animationDelay: `${(idx + 1) * 100}ms` }}
             >
               {/* Image */}
-              <div className="relative overflow-hidden aspect-video">
+              <div className="relative overflow-hidden h-70">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="w-full h-full object-fill transition-transform duration-700 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent opacity-60" />
+                <div className="absolute inset-0 bg-linear-to-t from-card via-card/50 to-transparent opacity-60" />
                 {/* Overlay Links */}
                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a
@@ -81,7 +82,7 @@ function Projects() {
                     href={project.github}
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                   >
-                    <Github className="w-5 h-5" />
+                    <TbBrandGithub className="w-5 h-5" />
                   </a>
                 </div>
               </div>
@@ -115,3 +116,5 @@ function Projects() {
     </section>
   );
 }
+
+export default Projects;

@@ -38,19 +38,19 @@ function About() {
         {/* Bottom Section */}
         <div className="flex justify-between">
           {/* Bottom Left Section */}
-          <div className=" text-2xl flex-1 font-display font-semibold">
+          <div className=" text-2xl flex-1 pt-10 font-display font-semibold">
             <p>
               I'm <span className="font-bold">Muhammad Yakubu</span> a developer
               who builds clean, modern web apps using React, NodeJS, and
-              TypeScript. I enjoy turning ideas into smooth, functional
-              experiences that feel as good as they look.
+              TypeScript. I turn ideas into smooth, functional experiences that
+              feel as good as they look.
             </p>
             <br />
             <p>
               I'm constantly learning and improving, I focus on writing simple,
-              scalable code and creating products people actually enjoy using.
-              I'm open to opportunities to collaborate, contribute, and bring
-              ideas to life.
+              scalable code and creating products people enjoy using. I'm open
+              to opportunities to collaborate, contribute, and bring ideas to
+              life.
             </p>
           </div>
           {/* Bottom Right Section */}

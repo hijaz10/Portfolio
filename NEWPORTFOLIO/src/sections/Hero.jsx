@@ -7,8 +7,7 @@ function Hero() {
       {/*LEFT SECTION*/}
       <div className="flex flex-col flex-1 my-16 justify-center">
         <h1 className="text-4xl xl:text-6xl font-bold ">
-          Your idea deserves more than a developer. <br /> It deserves an
-          engineer who thinks like a founder.
+          Your ideas deserve an engineer who thinks like a founder.
         </h1>
         <p className="text-muted-foreground text-[18px] my-6">
           Software engineer with deep expertise in React, Node.js, and
